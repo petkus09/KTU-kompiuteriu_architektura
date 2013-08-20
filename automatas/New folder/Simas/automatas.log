@@ -1,0 +1,8 @@
+Prefit Logic Optimizer (May 27 2008)  Wed May 09 23:23:17 2012
+
+C:\ispLEVER_Classic1_5\ispcpld\bin\prefit.exe -blif -inp automatas.bl4 -out automatas.bl5 -err automake.err -log automatas.log -mod operacinis @automatas.l0 -gui -sc 
+Number of pins (IO)    :    16
+Number of outputs (MC) :    42
+Number of registers    :    26
+Number of logic pterms :   157
+C:\ispLEVER_Classic1_5\ispcpld\bin\prefit.exe complete - Time 0 seconds

@@ -1,0 +1,33 @@
+ispLEVER Classic 1.4.00.04.27.10 SDFGEN
+Copyright(C),1992-2010, Lattice Semiconductor Corporation. All Rights Reserved.
+Output Files:
+  Netlist File: automatas.edo
+  Delay   File: automatas.sdf
+
+Parsing C:/Users/petku_000/Documents/Darbas/ispLEVER_Classic1_4/ispcpld/dat/sdf.mdl
+Input file: c:/users/petku_000/documents/darbas/kompiuteriu elementai ir architektura/new version/213\automatas.tt4
+Reading library information ...
+Mapping to combinational gates 
+Mapping to netlist view.
+Note 18862: NODE name R2.D.X1 being renamed to GATE_R2_D_X1.
+Note 18862: NODE name R2.D.X2 being renamed to GATE_R2_D_X2.
+Note 18862: NODE name R3.D.X1 being renamed to GATE_R3_D_X1.
+Note 18862: NODE name R3.D.X2 being renamed to GATE_R3_D_X2.
+Note 18862: NODE name R4.T.X1 being renamed to GATE_R4_T_X1.
+Note 18862: NODE name R4.T.X2 being renamed to GATE_R4_T_X2.
+Note 18862: NODE name R5.T.X1 being renamed to GATE_R5_T_X1.
+Note 18862: NODE name R5.T.X2 being renamed to GATE_R5_T_X2.
+Note 18862: NODE name R6.D.X1 being renamed to GATE_R6_D_X1.
+Note 18862: NODE name R6.D.X2 being renamed to GATE_R6_D_X2.
+Note 18862: NODE name R7.D.X1 being renamed to GATE_R7_D_X1.
+Note 18862: NODE name R7.D.X2 being renamed to GATE_R7_D_X2.
+Note 18862: NODE name N_9.X1 being renamed to GATE_N_9_X1.
+Note 18862: NODE name N_9.X2 being renamed to GATE_N_9_X2.
+Note 18862: NODE name F0_C2.X1 being renamed to GATE_F0_C2_X1.
+Note 18862: NODE name F0_C2.X2 being renamed to GATE_F0_C2_X2.
+Note 18862: NODE name F0_N_7.X1 being renamed to GATE_F0_N_7_X1.
+Utilization Estimate
+    Combinational Macros:        273
+    Flip-Flop and Latch Macros:   26
+    I/O Pads:                     16
+Elapsed time: 1 seconds

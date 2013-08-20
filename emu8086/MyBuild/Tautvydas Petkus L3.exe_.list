@@ -1,0 +1,263 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+Tautvydas Petkus L3.exe_ -- emu8086 assembler version: 4.08  
+ 
+[ 2013-05-23  --  12:45:19 ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       data segment
+[   2]    0000: FF 7F                                 a dw 07FFFh
+[   3]    0002: 03                                    b db 3
+[   4]    0003: 02                                    c db 2
+[   5]    0004: 04 02 03 FB 08                        x db 4, 2, 3, -5, 8
+[   6]    0009:                                       kiek = $-x
+[   7]    0009: AA 00 AA 00 AA 00 AA 00 AA 00         y dw kiek dup(0AAh)
+[   8]    0013: 79 3D 00 00 00 00 00 00 0D 0A 24      isbv DB 'y=',6 dup (?), 0Dh, 0Ah, '$'
+[   9]    001E: 50 65 72 70 69 6C 64 79 6D 61 73 0D   perp DB 'Perpildymas', 0Dh, 0Ah, '$'
+                0A 24                               
+[  10]    002C: 4E 65 74 65 6C 70 61 20 69 20 62 61   netb DB 'Netelpa i baita', 0Dh, 0Ah, '$'
+                69 74 61 0D 0A 24                   
+[  11]        :                                       ends
+[  12]        :                                       
+[  13]        :                                       stack segment
+[  14]    0040: 00 00 00 00 00 00 00 00 00 00 00 00   dw   128  dup(0)
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00                         
+[  15]        :                                       ends
+[  16]        :                                       
+[  17]        :                                       code segment
+[  18]    0140:                                       start:
+[  19]        :                                       
+[  20]        :                                       ; add your code here
+[  21]    0140: B8 00 00                              mov ax, data
+[  22]    0143: 8E D8                                 mov ds, ax
+[  23]    0145: 33 F6                                 xor si, si
+[  24]    0147: 33 FF                                 xor di, di
+[  25]    0149: B9 05 00                              mov cx, 5
+[  26]        :                                       
+[  27]    014C:                                       naujaprog:
+[  28]    014C: 8A 44 04                              mov al, x[si]
+[  29]    014F: 8A 16 02 00                           mov dl, b
+[  30]    0153: 3A C2                                 cmp al, dl
+[  31]    0155: 7F 04                                 jg func1
+[  32]    0157: 74 29                                 je func2
+[  33]    0159: 7C 3F                                 jl func3
+[  34]        :                                       
+[  35]        :                                       
+[  36]    015B:                                       func1:
+[  37]    015B: A0 03 00                              mov al, c
+[  38]    015E: 98                                    cbw
+[  39]    015F: F7 E8                                 imul ax
+[  40]    0161: 70 54                                 jo perpkl
+[  41]        :                                       
+[  42]    0163: 8B D0                                 mov dx, ax
+[  43]    0165: A0 02 00                              mov al, b
+[  44]    0168: 98                                    cbw
+[  45]    0169: 50                                    push ax
+[  46]    016A: 03 C2                                 add ax, dx
+[  47]    016C: 70 49                                 jo perpkl
+[  48]        :                                       
+[  49]    016E: 5A                                    pop dx
+[  50]    016F: 50                                    push ax
+[  51]    0170: 8A 44 04                              mov al, x[si]
+[  52]    0173: 98                                    cbw
+[  53]    0174: 2B C2                                 sub ax, dx
+[  54]    0176: 70 3F                                 jo perpkl
+[  55]    0178: 8B D8                                 mov bx, ax
+[  56]    017A: 58                                    pop ax
+[  57]    017B: 33 D2                                 xor dx, dx
+[  58]    017D: F6 FB                                 idiv bl
+[  59]        :                                       
+[  60]    017F: 98                                    cbw
+[  61]    0180: EB 4B                                 jmp endoffunc
+[  62]        :                                       
+[  63]    0182:                                       func2:
+[  64]    0182: A1 00 00                              mov ax, a
+[  65]    0185: BA 07 00                              mov dx, 7
+[  66]    0188: F7 EA                                 imul dx
+[  67]    018A: 70 2B                                 jo perpkl
+[  68]        :                                       
+[  69]    018C: 50                                    push ax
+[  70]    018D: 8A 44 04                              mov al, x[si]
+[  71]    0190: 98                                    cbw
+[  72]    0191: 8B D0                                 mov dx, ax
+[  73]    0193: 58                                    pop ax
+[  74]    0194: 2B C2                                 sub ax, dx
+[  75]    0196: 70 1F                                 jo perpkl
+[  76]        :                                       
+[  77]    0198: EB 33                                 jmp endoffunc
+[  78]        :                                       
+[  79]        :                                       
+[  80]    019A:                                       func3:
+[  81]    019A: A1 00 00                              mov ax, a
+[  82]    019D: BA 02 00                              mov dx, 2
+[  83]    01A0: F7 EA                                 imul dx
+[  84]    01A2: 70 13                                 jo perpkl
+[  85]    01A4: 50                                    push ax
+[  86]    01A5: A0 03 00                              mov al, c
+[  87]    01A8: 98                                    cbw
+[  88]    01A9: 3D 00 00                              cmp ax, 0
+[  89]    01AC: 7F 02                                 jg notmodulfunc3
+[  90]    01AE: F7 D8                                 neg ax
+[  91]    01B0:                                       notmodulfunc3:
+[  92]    01B0: 5A                                    pop dx
+[  93]    01B1: 03 C2                                 add ax, dx
+[  94]    01B3: 70 02                                 jo perpkl
+[  95]    01B5: EB 16                                 jmp endoffunc
+[  96]    01B7:                                       perpkl:
+[  97]    01B7: BA 1E 00                              LEA dx, perp
+[  98]    01BA: B4 09                                 MOV ah, 9
+[  99]    01BC: CD 21                                 INT 21h
+[ 100]    01BE: 32 C0                                 XOR al, al
+[ 101]    01C0: EB 0B                                 JMP endoffunc
+[ 102]    01C2:                                       netelpkl:
+[ 103]    01C2: BA 2C 00                              LEA dx, netb
+[ 104]    01C5: B4 09                                 MOV ah, 9
+[ 105]    01C7: CD 21                                 INT 21h
+[ 106]    01C9: 32 C0                                 XOR al, al
+[ 107]    01CB: EB 00                                 JMP endoffunc
+[ 108]        :                                       
+[ 109]    01CD:                                       endoffunc:
+[ 110]    01CD: 89 44 09                              mov y[si], ax
+[ 111]    01D0: 49                                    dec cx
+[ 112]    01D1: 46                                    inc si
+[ 113]        :                                       
+[ 114]    01D2: 50                                    push ax
+[ 115]    01D3: BB 15 00                              mov bx, offset isbv + 2
+[ 116]    01D6: 53                                    push bx
+[ 117]    01D7: E8 11 00                              call binasc
+[ 118]    01DA: BA 13 00                              mov dx, offset isbv
+[ 119]    01DD: B4 09                                 mov ah, 9h
+[ 120]    01DF: CD 21                                 int 21h
+[ 121]    01E1: E3 03                                 jcxz ending
+[ 122]    01E3: E9 66 FF                              jmp naujaprog
+[ 123]        :                                       
+[ 124]    01E6:                                       ending:
+[ 125]    01E6: B8 00 4C                              mov ax, 4c00h
+[ 126]    01E9: CD 21                                 int 21h
+[ 127]        :                                       
+[ 128]        :                                       
+[ 129]        :                                       ends
+[ 130]    01EB:                                       binasc  PROC NEAR
+[ 131]    01EB: 55                                    PUSH bp
+[ 132]    01EC: 8B EC                                 MOV bp,sp
+[ 133]        :                                       ; naudojamø registrø iðsaugojimas
+[ 134]    01EE: 60                                    PUSHA
+[ 135]        :                                       ; rezultato eilutæ uþpildome tarpais
+[ 136]    01EF: B9 06 00                              MOV cx, 6
+[ 137]    01F2: 8B 5E 04                              MOV bx, [bp +4]
+[ 138]    01F5:                                       tarp:
+[ 139]    01F5: C6 07 20                              MOV byte ptr[bx], ' '
+[ 140]    01F8: 43                                    INC bx
+[ 141]    01F9: E2 FA                                 LOOP tarp
+[ 142]        :                                       ; skaièius paruoðiamas dalybai ið 10
+[ 143]    01FB: 8B 46 06                              MOV ax, [bp+6]
+[ 144]    01FE: BE 0A 00                              MOV si, 10
+[ 145]    0201: 0B C0                                 OR ax, ax
+[ 146]    0203: 79 02                                 JNS val
+[ 147]        :                                       ; verèiamas skaièius yra neigiamas
+[ 148]    0205: F7 D8                                 NEG ax
+[ 149]    0207:                                       val:
+[ 150]    0207: 33 D2                                 XOR dx, dx
+[ 151]    0209: F7 F6                                 DIV si
+[ 152]        :                                       ; gautà liekanà verèiame á ASCII kodà
+[ 153]    020B: 83 C2 30                              ADD dx, '0' ; galima --> ADD dx, 30h
+[ 154]        :                                       ; áraðome skaitmená á eilutës pabaigà
+[ 155]    020E: 4B                                    DEC bx
+[ 156]    020F: 88 17                                 MOV [bx], dl
+[ 157]        :                                       ; skaièiuojame pervestø simboliø kieká
+[ 158]    0211: 41                                    INC cx
+[ 159]        :                                       ; ar dar reikia kartoti dalyba?
+[ 160]    0212: 0B C0                                 OR ax, ax
+[ 161]    0214: 75 F1                                 JNZ val
+[ 162]        :                                       ; gautas rezultatas. Uþraðome þenklà
+[ 163]        :                                       ; pop ax
+[ 164]    0216: 8B 46 06                              MOV ax, [bp+6]
+[ 165]    0219: 0B C0                                 OR ax, ax
+[ 166]    021B: 79 07                                 JNS teig
+[ 167]        :                                       ; buvo neigiamas skaièius, uþraðome -
+[ 168]    021D: 4B                                    DEC bx
+[ 169]    021E: C6 07 2D                              MOV byte ptr[bx], '-'
+[ 170]    0221: 41                                    INC cx
+[ 171]    0222: EB 05                                 JMP vepab
+[ 172]        :                                       ; buvo teigiamas skaièius, uþraðau +
+[ 173]    0224:                                       teig:
+[ 174]    0224: 4B                                    DEC bx
+[ 175]    0225: C6 07 2B                              MOV byte ptr[bx], '+'
+[ 176]    0228: 41                                    INC cx
+[ 177]    0229:                                       vepab:
+[ 178]    0229: 61                                    POPA
+[ 179]    022A: 5D                                    POP bp
+[ 180]    022B: C3                                    RET
+[ 181]        :                                       binasc ENDP
+[ 182]        :                                       
+[ 183]        :                                       end start
+[ 184]        :                                       
+[ 185]        :                                       
+ 
+===================================================================================================
+ 
+EXE HEADER - bytes from 0000 to 01FF inclusive.
+
+0000: 4D      -   exe signature (M)
+0001: 5A      -   exe signature (Z)
+0002: 2C      -   bytes on last page (l.byte)
+0003: 00      -   bytes on last page (h.byte)
+0004: 03      -   512 byte pages in file (l.byte)
+0005: 00      -   512 byte pages in file (h.byte)
+0006: 01      -   relocations (l.byte)
+0007: 00      -   relocations (h.byte)
+0008: 20      -   paragraphs in header (l.byte)
+0009: 00      -   paragraphs in header (h.byte)
+000A: 00      -   minimum memory (l.byte)
+000B: 00      -   minimum memory (h.byte)
+000C: FF      -   maximum memory (l.byte)
+000D: FF      -   maximum memory (h.byte)
+000E: 04      -   SS - stack segment (l.byte)
+000F: 00      -   SS - stack segment (h.byte)
+0010: 00      -   SP - stack pointer (l.byte)
+0011: 01      -   SP - stack pointer (h.byte)
+0012: 9E      -   check sum (l.byte)
+0013: 20      -   check sum (h.byte)
+0014: 00      -   IP - instruction pointer (l.byte)
+0015: 00      -   IP - instruction pointer (h.byte)
+0016: 14      -   CS - code segment (l.byte)
+0017: 00      -   CS - code segment (h.byte)
+0018: 1E      -   relocation table adress (l.byte)
+0019: 00      -   relocation table adress (h.byte)
+001A: 00      -   overlay number (l.byte)
+001B: 00      -   overlay number (h.byte)
+001C: 01      -   signature (l.byte)
+001D: 00      -   signature (h.byte)
+001E: 01      -   relocation table - offset inside segment (l.byte)
+001F: 00      -   relocation table - offset inside segment (h.byte)
+0020: 14      -   relocation table - segment anchor (l.byte)
+0021: 00      -   relocation table - segment anchor (h.byte)
+0022 to 01FF  -   reserved relocation area  (00) 
+
+
+
+
+===================================================================================================

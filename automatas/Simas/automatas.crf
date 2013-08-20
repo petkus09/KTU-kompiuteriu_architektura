@@ -1,0 +1,20 @@
+// Signal Name Cross Reference File
+// ispLEVER Classic 1.4.00.04.27.10
+
+// Design 'automatas' created Mon May 20 16:31:24 2013
+
+
+// LEGEND:  '>'  Functional Block Port Separator
+//          '/'  Hierarchy Path Separator
+//          '@'  Automatically Generated Node
+
+
+// Hierarchical Name                    Short Name
+I6/C2                                	F0_C2
+I6/N_7                               	F0_N_7
+I7/C2                                	G0_C2
+I7/N_14                              	G0_N_14
+I37/Q0                               	G1_Q0
+I37/Q1                               	G1_Q1
+I37/Q2                               	G1_Q2
+I37/Q3                               	G1_Q3

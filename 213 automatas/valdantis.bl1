@@ -1,0 +1,434 @@
+#$ TOOL ispLEVER Classic 1.4.00.04.27.10
+#$ DATE Tue May 21 11:25:49 2013
+#$ TITLE valdantis.bls 
+#$ MODULE valdantis
+#$ PINS 11 SSR'o'  R C V'o'  S'o'  SB0'o'  SA1'o'  SA0'o'  SB1'o'  SL SR
+#$ NODES 77 N_59'o'  N_60'o'  N_61'o'  N_63'o'  N_64'o'  N_65'o'  N_66'o'  N_67'o'  N_68'o'  N_69'o'  N_70'o'  N_71'o'  N_72'o'  \
+#  N_73'o'  N_74'o'  N_75'o'  N_76'o'  N_77'o'  N_78'o'  N_2'o'  N_3'o'  N_4'o'  N_5'o'  N_6'o'  N_8'o'  N_9'o'  N_10'o'  N_11'o'  N_12'o'  N_13'o'  \
+#  N_14'o'  N_15'o'  N_16'o'  N_17'o'  N_18'o'  N_19'o'  N_20'o'  N_27'o'  N_28'o'  N_29'o'  N_30'o'  N_31'o'  N_32'o'  N_33'o'  N_34'o'  \
+#  N_35'o'  N_36'o'  N_37'o'  N_38'o'  N_39'o'  N_40'o'  N_41'o'  N_42'o'  N_43'o'  N_44'o'  N_45'o'  N_46'o'  N_47'o'  N_48'o'  N_49'o'  \
+#  N_50'o'  N_51'o'  N_52'o'  N_53'o'  N_54'o'  N_55'o'  N_56'o'  N_57'o'  N_58'o'  D3'o'  D2'o'  D0'o'  D1'o'  Q0'o'  Q1'o'  Q2'o'  Q3'o' 
+.model valdantis
+.inputs Q1.BLIF Q0.BLIF Q3.BLIF Q2.BLIF N_12.BLIF N_66.BLIF N_19.BLIF \
+N_73.BLIF N_72.BLIF N_71.BLIF N_70.BLIF N_65.BLIF N_64.BLIF N_11.BLIF \
+N_10.BLIF N_9.BLIF N_8.BLIF N_20.BLIF N_6.BLIF N_18.BLIF N_17.BLIF N_52.BLIF \
+N_51.BLIF N_50.BLIF N_49.BLIF N_48.BLIF N_47.BLIF N_33.BLIF N_32.BLIF \
+N_31.BLIF N_30.BLIF N_63.BLIF N_55.BLIF N_42.BLIF N_75.BLIF N_74.BLIF \
+N_13.BLIF N_16.BLIF N_54.BLIF SR.BLIF N_53.BLIF N_40.BLIF N_41.BLIF SL.BLIF \
+N_39.BLIF N_61.BLIF N_59.BLIF N_60.BLIF V.BLIF N_67.BLIF N_68.BLIF SA0.BLIF \
+N_14.BLIF N_15.BLIF N_36.BLIF N_27.BLIF N_35.BLIF N_78.BLIF N_76.BLIF \
+N_69.BLIF N_77.BLIF N_58.BLIF N_56.BLIF N_46.BLIF N_57.BLIF N_45.BLIF \
+N_43.BLIF N_28.BLIF N_44.BLIF N_38.BLIF N_29.BLIF N_34.BLIF N_37.BLIF N_5.BLIF \
+C.BLIF D3.BLIF N_4.BLIF D2.BLIF N_3.BLIF D1.BLIF N_2.BLIF D0.BLIF R.BLIF
+.outputs N_38 N_61 N_78 N_73 N_11 N_15 N_52 N_59 N_67 N_20 N_49 N_48 N_29 N_27 \
+N_70 N_10 N_37 N_32 N_30 N_75 N_74 N_66 N_13 N_12 SB0 N_19 N_55 N_54 N_53 N_40 \
+N_39 N_68 N_58 N_45 N_76 N_69 N_64 N_14 N_8 N_17 N_6 N_56 N_50 N_46 N_43 N_28 \
+N_33 N_31 N_36 N_72 N_77 N_65 V N_9 N_18 N_35 N_57 N_44 N_34 N_47 D3 SSR SA1 \
+N_41 N_60 S SB1 SA0 D2 D1 D0 N_42 Q3.REG Q3.AR Q3.C Q2.REG Q2.AR Q2.C Q1.REG \
+Q1.AR Q1.C Q0.REG Q0.AR Q0.C N_5 N_4 N_3 N_2 N_71 N_63 N_16 N_51
+.names Q1.BLIF Q0.BLIF N_38
+11 1
+0- 0
+-0 0
+.names Q3.BLIF Q2.BLIF N_61
+11 1
+0- 0
+-0 0
+.names Q3.BLIF Q2.BLIF N_78
+11 1
+0- 0
+-0 0
+.names Q1.BLIF Q0.BLIF N_73
+11 1
+0- 0
+-0 0
+.names Q1.BLIF Q0.BLIF N_11
+11 1
+0- 0
+-0 0
+.names Q3.BLIF N_12.BLIF N_15
+11 1
+0- 0
+-0 0
+.names Q1.BLIF Q0.BLIF N_52
+11 1
+0- 0
+-0 0
+.names Q2.BLIF Q3.BLIF N_59
+01 1
+1- 0
+-0 0
+.names Q1.BLIF N_66.BLIF N_67
+01 1
+1- 0
+-0 0
+.names Q3.BLIF N_19.BLIF N_20
+01 1
+1- 0
+-0 0
+.names Q1.BLIF Q0.BLIF N_49
+01 1
+1- 0
+-0 0
+.names Q0.BLIF Q1.BLIF N_48
+01 1
+1- 0
+-0 0
+.names Q0.BLIF Q1.BLIF N_29
+01 1
+1- 0
+-0 0
+.names Q0.BLIF Q1.BLIF N_27
+01 1
+1- 0
+-0 0
+.names Q1.BLIF Q0.BLIF N_70
+00 1
+1- 0
+-1 0
+.names Q1.BLIF Q0.BLIF N_10
+00 1
+1- 0
+-1 0
+.names Q1.BLIF Q0.BLIF N_37
+00 1
+1- 0
+-1 0
+.names Q1.BLIF Q0.BLIF N_32
+00 1
+1- 0
+-1 0
+.names Q1.BLIF Q0.BLIF N_30
+00 1
+1- 0
+-1 0
+.names N_73.BLIF N_72.BLIF N_75
+1- 1
+-1 1
+00 0
+.names N_71.BLIF N_70.BLIF N_74
+1- 1
+-1 1
+00 0
+.names N_65.BLIF N_64.BLIF N_66
+1- 1
+-1 1
+00 0
+.names N_11.BLIF N_10.BLIF N_13
+1- 1
+-1 1
+00 0
+.names N_9.BLIF N_8.BLIF N_12
+1- 1
+-1 1
+00 0
+.names N_20.BLIF N_6.BLIF SB0
+1- 1
+-1 1
+00 0
+.names N_18.BLIF N_17.BLIF N_19
+1- 1
+-1 1
+00 0
+.names N_52.BLIF N_51.BLIF N_55
+1- 1
+-1 1
+00 0
+.names N_50.BLIF N_49.BLIF N_54
+1- 1
+-1 1
+00 0
+.names N_48.BLIF N_47.BLIF N_53
+1- 1
+-1 1
+00 0
+.names N_33.BLIF N_32.BLIF N_40
+1- 1
+-1 1
+00 0
+.names N_31.BLIF N_30.BLIF N_39
+1- 1
+-1 1
+00 0
+.names N_63.BLIF Q1.BLIF Q3.BLIF N_68
+111 1
+-0- 0
+0-- 0
+--0 0
+.names N_55.BLIF Q2.BLIF Q3.BLIF N_58
+111 1
+-0- 0
+0-- 0
+--0 0
+.names N_42.BLIF Q2.BLIF Q3.BLIF N_45
+111 1
+-0- 0
+0-- 0
+--0 0
+.names Q2.BLIF N_75.BLIF Q3.BLIF N_76
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q3.BLIF N_74.BLIF Q2.BLIF N_69
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q3.BLIF Q0.BLIF Q2.BLIF N_64
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q3.BLIF N_13.BLIF Q2.BLIF N_14
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q1.BLIF Q2.BLIF Q0.BLIF N_8
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q0.BLIF Q2.BLIF Q1.BLIF N_17
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q1.BLIF N_16.BLIF Q3.BLIF N_6
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q2.BLIF N_54.BLIF Q3.BLIF N_56
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q0.BLIF SR.BLIF Q1.BLIF N_50
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q3.BLIF N_53.BLIF Q2.BLIF N_46
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q2.BLIF N_40.BLIF Q3.BLIF N_43
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q3.BLIF N_41.BLIF Q2.BLIF N_28
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q0.BLIF SR.BLIF Q1.BLIF N_33
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q1.BLIF SL.BLIF Q0.BLIF N_31
+011 1
+-0- 0
+1-- 0
+--0 0
+.names SR.BLIF Q1.BLIF Q0.BLIF N_36
+011 1
+-0- 0
+1-- 0
+--0 0
+.names Q0.BLIF SR.BLIF Q1.BLIF N_72
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q2.BLIF Q3.BLIF Q1.BLIF N_77
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q2.BLIF Q0.BLIF Q3.BLIF N_65
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q2.BLIF Q3.BLIF Q1.BLIF V
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q2.BLIF Q0.BLIF Q1.BLIF N_9
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q1.BLIF Q2.BLIF Q0.BLIF N_18
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q0.BLIF Q1.BLIF SR.BLIF N_35
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q1.BLIF Q3.BLIF Q0.BLIF N_57
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q2.BLIF Q3.BLIF N_39.BLIF N_44
+001 1
+-1- 0
+1-- 0
+--0 0
+.names Q1.BLIF SR.BLIF Q0.BLIF N_34
+001 1
+-1- 0
+1-- 0
+--0 0
+.names SR.BLIF Q1.BLIF Q0.BLIF N_47
+000 1
+-1- 0
+1-- 0
+--1 0
+.names N_60.BLIF N_59.BLIF N_61.BLIF D3
+-1- 1
+1-- 1
+--1 1
+000 0
+.names N_68.BLIF N_67.BLIF V.BLIF SSR
+-1- 1
+1-- 1
+--1 1
+000 0
+.names N_15.BLIF N_14.BLIF SA0.BLIF SA1
+-1- 1
+1-- 1
+--1 1
+000 0
+.names N_35.BLIF N_27.BLIF N_36.BLIF N_41
+-1- 1
+1-- 1
+--1 1
+000 0
+.names Q3.BLIF Q0.BLIF Q1.BLIF Q2.BLIF N_60
+0111 1
+--0- 0
+-0-- 0
+1--- 0
+---0 0
+.names Q2.BLIF Q3.BLIF Q0.BLIF Q1.BLIF S
+0011 1
+--0- 0
+-1-- 0
+1--- 0
+---0 0
+.names Q1.BLIF Q3.BLIF Q2.BLIF Q0.BLIF SB1
+0001 1
+--1- 0
+-1-- 0
+1--- 0
+---0 0
+.names Q3.BLIF Q2.BLIF Q1.BLIF Q0.BLIF SA0
+0000 1
+--1- 0
+-1-- 0
+1--- 0
+---1 0
+.names N_77.BLIF N_69.BLIF N_76.BLIF N_78.BLIF D2
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names N_57.BLIF N_46.BLIF N_56.BLIF N_58.BLIF D1
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names N_44.BLIF N_28.BLIF N_43.BLIF N_45.BLIF D0
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names N_37.BLIF N_34.BLIF N_29.BLIF N_38.BLIF N_42
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.names R.BLIF N_5
+0 1
+1 0
+.names R.BLIF N_4
+0 1
+1 0
+.names R.BLIF N_3
+0 1
+1 0
+.names R.BLIF N_2
+0 1
+1 0
+.names Q0.BLIF Q1.BLIF N_71
+10 1
+01 1
+00 0
+11 0
+.names Q0.BLIF Q2.BLIF N_63
+10 1
+01 1
+00 0
+11 0
+.names Q0.BLIF Q2.BLIF N_16
+10 1
+01 1
+00 0
+11 0
+.names Q0.BLIF Q1.BLIF N_51
+10 1
+01 1
+00 0
+11 0
+.names D3.BLIF Q3.REG
+1 1
+0 0
+.names N_5.BLIF Q3.AR
+1 1
+0 0
+.names C.BLIF Q3.C
+1 1
+0 0
+.names D2.BLIF Q2.REG
+1 1
+0 0
+.names N_4.BLIF Q2.AR
+1 1
+0 0
+.names C.BLIF Q2.C
+1 1
+0 0
+.names D1.BLIF Q1.REG
+1 1
+0 0
+.names N_3.BLIF Q1.AR
+1 1
+0 0
+.names C.BLIF Q1.C
+1 1
+0 0
+.names D0.BLIF Q0.REG
+1 1
+0 0
+.names N_2.BLIF Q0.AR
+1 1
+0 0
+.names C.BLIF Q0.C
+1 1
+0 0
+.end

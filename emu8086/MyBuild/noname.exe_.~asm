@@ -1,0 +1,30 @@
+data segment
+
+ends
+
+stack segment
+dw   128  dup(0)
+ends
+
+code segment
+start:
+
+; add your code here
+mm=0Ah
+k=(11H-7)/4
+cr equ 13h
+ee1 equ 0e2h
+ee2 equ '111b'
+stekas segment stack
+db 8 dup ('1234')
+ends
+
+
+mov ax, 4c00h
+int 21h
+
+ends
+
+end start
+
+

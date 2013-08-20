@@ -1,0 +1,118 @@
+#$ TOOL ispLEVER Classic 1.4.00.04.27.10
+#$ DATE Mon May 20 16:31:24 2013
+#$ TITLE operacinis.bls 
+#$ MODULE operacinis
+#$ PINS 16 R0 DZ R1 R2 R3 RZ'o'  R4 R5 R6 R7 D0 D1 D2 D3 R C
+#$ NODES 45 N_20'o'  A0 A1 A2 A3 BZ'o'  A4 O4'o'  A5 O5'o'  B0 SA1 A6 O6'o'  B1 SA0 GND B2 SB0 AZ'o'  SB1 A7 O7'o'  B3 SR S V \
+#  N_2 N_3 N_4'o'  N_5 N_6 N_7'o'  N_8'o'  N_9'o'  N_10'o'  N_12'o'  N_13'o'  N_14 N_15'o'  N_16 N_17 N_18 N_19 I6>CO
+#$ INTERFACE fadd4c  14 A0'i'  A1'i'  A2'i'  A3'i'  B0'i'  B1'i'  B2'i'  B3'i'  CI'i'  CO'o'  S0'o'  S1'o'  S2'o'  S3'o' 
+#$ INTERFACE sr4univ  14 CK'i'  CL'i'  D0'i'  D1'i'  D2'i'  D3'i'  S0'i'  S1'i'  SINL'i'  SINR'i'  Q0'o'  Q1'o'  Q2'o'  Q3'o' 
+#$ INTERFACE sr8univ  22 CK'i'  CL'i'  D0'i'  D1'i'  D2'i'  D3'i'  D4'i'  D5'i'  D6'i'  D7'i'  S0'i'  S1'i'  SINL'i'  SINR'i'  Q0'o'  Q1'o'  Q2'o'  Q3'o'  Q4'o'  Q5'o'  Q6'o'  Q7'o' 
+#$ INTERFACE valdantis  11 C'i'  R'i'  SL'i'  SR'i'  S'o'  SA0'o'  SA1'o'  SB0'o'  SB1'o'  SSR'o'  V'o' 
+#$ INSTANCE I6 fadd4c 14 O4 O5 O6 O7 R4 R5 R6 R7 N_15 I6>CO N_16 N_17 N_18 N_19
+#$ INSTANCE I7 fadd4c 14 A0 A1 A2 A3 R0 R1 R2 R3 GND N_14 N_2 N_3 N_5 N_6
+#$ INSTANCE I10 sr4univ 14 C R D0 D1 D2 D3 SB0 SB1 GND GND B0 B1 B2 B3
+#$ INSTANCE I11 sr8univ 22 C R N_2 N_3 N_5 N_6 N_16 N_17 N_18 N_19 SR SR GND GND R0 R1 R2 R3 R4 R5 R6 \
+#  R7
+#$ INSTANCE I12 sr8univ 22 C R GND GND GND GND D0 D1 D2 D3 SA0 SA1 GND GND A0 A1 A2 A3 A4 A5 A6 A7
+#$ INSTANCE I37 valdantis 11 C R AZ B3 S SA0 SA1 SB0 SB1 SR V
+.model operacinis
+.inputs V.BLIF N_14.BLIF C.BLIF SB1.BLIF SB0.BLIF SA1.BLIF SA0.BLIF N_7.BLIF \
+N_13.BLIF DZ.BLIF N_4.BLIF N_12.BLIF R.BLIF A7.BLIF B3.BLIF S.BLIF A6.BLIF \
+B2.BLIF A5.BLIF B1.BLIF A4.BLIF B0.BLIF AZ.BLIF BZ.BLIF N_20.BLIF N_10.BLIF \
+N_9.BLIF N_8.BLIF
+.outputs GND N_15 N_13 N_12 BZ.REG BZ.AR BZ.C AZ.REG AZ.AR AZ.C N_7 N_4 N_20 \
+N_10 N_9 N_8 RZ O7 O6 O5 O4
+
+.subckt g_2or A.BLIF=V.BLIF B.BLIF=N_14.BLIF Y=N_15
+
+.subckt g_3and A.BLIF=C.BLIF B.BLIF=SB1.BLIF C.BLIF=SB0.BLIF Y=N_13
+
+.subckt g_3and A.BLIF=C.BLIF B.BLIF=SA1.BLIF C.BLIF=SA0.BLIF Y=N_12
+\
+
+.subckt g_dc C.BLIF=N_7.BLIF CLK.BLIF=N_13.BLIF D.BLIF=DZ.BLIF Q.REG=BZ.REG Q.AR=BZ.AR \
+ Q.C=BZ.C
+\
+
+.subckt g_dc C.BLIF=N_4.BLIF CLK.BLIF=N_12.BLIF D.BLIF=DZ.BLIF Q.REG=AZ.REG Q.AR=AZ.AR \
+ Q.C=AZ.C
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_7
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_4
+
+.subckt g_mux21 A.BLIF=A7.BLIF B.BLIF=B3.BLIF S.BLIF=S.BLIF Y=N_20
+
+.subckt g_mux21 A.BLIF=A6.BLIF B.BLIF=B2.BLIF S.BLIF=S.BLIF Y=N_10
+
+.subckt g_mux21 A.BLIF=A5.BLIF B.BLIF=B1.BLIF S.BLIF=S.BLIF Y=N_9
+
+.subckt g_mux21 A.BLIF=A4.BLIF B.BLIF=B0.BLIF S.BLIF=S.BLIF Y=N_8
+
+.subckt g_xor A.BLIF=AZ.BLIF B.BLIF=BZ.BLIF Y=RZ
+
+.subckt g_xor A.BLIF=N_20.BLIF B.BLIF=V.BLIF Y=O7
+
+.subckt g_xor A.BLIF=N_10.BLIF B.BLIF=V.BLIF Y=O6
+
+.subckt g_xor A.BLIF=N_9.BLIF B.BLIF=V.BLIF Y=O5
+
+.subckt g_xor A.BLIF=N_8.BLIF B.BLIF=V.BLIF Y=O4
+.names GND
+.end
+.model g_2or
+.inputs A.BLIF B.BLIF
+.outputs Y
+.names A.BLIF B.BLIF Y
+1- 1
+-1 1
+00 0
+.end
+.model g_3and
+.inputs A.BLIF B.BLIF C.BLIF
+.outputs Y
+.names C.BLIF B.BLIF A.BLIF Y
+111 1
+-0- 0
+0-- 0
+--0 0
+.end
+.model g_dc
+.inputs C.BLIF CLK.BLIF D.BLIF
+.outputs Q.REG Q.C Q.AR
+.names D.BLIF Q.REG
+1 1
+0 0
+.names CLK.BLIF Q.C
+1 1
+0 0
+.names C.BLIF Q.AR
+1 1
+0 0
+.end
+.model g_inv
+.inputs A.BLIF
+.outputs YN
+.names A.BLIF YN
+0 1
+1 0
+.end
+.model g_mux21
+.inputs A.BLIF B.BLIF S.BLIF
+.outputs Y
+.names S.BLIF A.BLIF B.BLIF Y
+01- 1
+1-1 1
+00- 0
+1-0 0
+.end
+.model g_xor
+.inputs A.BLIF B.BLIF
+.outputs Y
+.names A.BLIF B.BLIF Y
+10 1
+01 1
+00 0
+11 0
+.end

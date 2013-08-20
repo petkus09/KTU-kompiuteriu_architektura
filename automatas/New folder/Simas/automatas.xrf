@@ -1,0 +1,23 @@
+Signal Name Cross Reference File
+
+ispLEVER Classic 1.5.00.05.39.l1
+
+Design 'automatas' created Wed May 09 23:23:14 2012
+
+Title:  operacinis.bls 
+
+ LEGEND:  '>'  Functional Block Port Separator
+          '/'  Hierarchy Path Separator
+          '@'  Automatically Generated Node
+
+
+Short Name                              Hierarchical Name
+----------                              -----------------
+F0_C2                                	I6/C2
+F0_N_7                               	I6/N_7
+G0_C2                                	I7/C2
+G0_N_14                              	I7/N_14
+G1_Q0                                	I37/Q0
+G1_Q1                                	I37/Q1
+G1_Q2                                	I37/Q2
+G1_Q3                                	I37/Q3

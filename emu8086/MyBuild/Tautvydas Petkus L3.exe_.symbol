@@ -1,0 +1,35 @@
+< THE SYMBOL TABLE >  Tautvydas Petkus L3.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATA                     	00000     	-5        	SEGMENT   	(ITSELF)  
+A                        	00000     	2         	VAR       	data      
+B                        	00002     	1         	VAR       	data      
+C                        	00003     	1         	VAR       	data      
+X                        	00004     	1         	VAR       	data      
+_LOCATION_COUNTER__N1_L5 	00009     	-1        	LABEL     	data      
+Y                        	00009     	2         	VAR       	data      
+ISBV                     	00013     	1         	VAR       	data      
+PERP                     	0001E     	1         	VAR       	data      
+NETB                     	0002C     	1         	VAR       	data      
+STACK                    	00004     	-5        	SEGMENT   	(ITSELF)  
+CODE                     	00014     	-5        	SEGMENT   	(ITSELF)  
+START                    	00000     	-1        	LABEL     	code      
+NAUJAPROG                	0000C     	-1        	LABEL     	code      
+FUNC1                    	0001B     	-1        	LABEL     	code      
+FUNC2                    	00042     	-1        	LABEL     	code      
+FUNC3                    	0005A     	-1        	LABEL     	code      
+NOTMODULFUNC3            	00070     	-1        	LABEL     	code      
+PERPKL                   	00077     	-1        	LABEL     	code      
+NETELPKL                 	00082     	-1        	LABEL     	code      
+ENDOFFUNC                	0008D     	-1        	LABEL     	code      
+ENDING                   	000A6     	-1        	LABEL     	code      
+BINASC                   	000AB     	-1        	NEAR      	          
+TARP                     	000B5     	-1        	LABEL     	          
+VAL                      	000C7     	-1        	LABEL     	          
+TEIG                     	000E4     	-1        	LABEL     	          
+VEPAB                    	000E9     	-1        	LABEL     	          
+===================================================================================================
+[ 2013-05-23  --  12:45:19 ] 
+< END >
+ 

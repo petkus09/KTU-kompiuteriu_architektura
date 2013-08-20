@@ -1,0 +1,55 @@
+#$ TOOL SCH2BLF 1.4.00.03 
+#$ TITLE operacinis.bls 
+#$ MODULE operacinis 
+#$ PINS 16  R0 DZ R1 R2 R3 RZ R4 R5 R6 R7 D0 D1 D2 D3 R C
+#$ NODES 44 N_20 A0 A1 A2 A3 BZ A4 O4 A5 O5 B0 SA1 A6 O6 B1 SA0 GND  \
+#  B2 SB0 AZ SB1 A7 O7 B3 SR S V N_2 N_3 N_4 N_5 N_6 N_7 N_8 N_9  \
+#  N_10 N_12 N_13 N_14 N_15 N_16 N_17 N_18 N_19 
+#$ NODES 1 I6>CO
+#$ INTERFACE fadd4c 14 A0'i' A1'i' A2'i' A3'i' B0'i' B1'i' B2'i' B3'i' \
+#   CI'i' CO'o' S0'o' S1'o' S2'o' S3'o'
+#$ INTERFACE g_2or 3 A'i' B'i' Y'o'
+#$ INTERFACE g_3and 4 A'i' B'i' C'i' Y'o'
+#$ INTERFACE g_dc 4 C'i' CLK'i' D'i' Q'o'
+#$ INTERFACE g_inv 2 A'i' YN'o'
+#$ INTERFACE g_mux21 4 A'i' B'i' S'i' Y'o'
+#$ INTERFACE g_xor 3 A'i' B'i' Y'o'
+#$ INTERFACE sr4univ 14 CK'i' CL'i' D0'i' D1'i' D2'i' D3'i' S0'i' \
+#   S1'i' SINL'i' SINR'i' Q0'o' Q1'o' Q2'o' Q3'o'
+#$ INTERFACE sr8univ 22 CK'i' CL'i' D0'i' D1'i' D2'i' D3'i' D4'i' \
+#   D5'i' D6'i' D7'i' S0'i' S1'i' SINL'i' SINR'i' Q0'o' Q1'o' Q2'o' \
+#   Q3'o' Q4'o' Q5'o' Q6'o' Q7'o'
+#$ INTERFACE valdantis 11 C'i' R'i' SL'i' SR'i' S'o' SA0'o' SA1'o' \
+#   SB0'o' SB1'o' SSR'o' V'o'
+#$ INSTANCE I6 fadd4c 14 O4 O5 O6 O7 R4 R5 R6 R7 N_15 I6>CO N_16 N_17 \
+#   N_18 N_19
+#$ INSTANCE I7 fadd4c 14 A0 A1 A2 A3 R0 R1 R2 R3 GND N_14 N_2 N_3 N_5 \
+#   N_6
+#$ PRIMITIVE I28 g_2or 3 V N_14 N_15
+#$ PRIMITIVE I3 g_3and 4 C SB1 SB0 N_13
+#$ PRIMITIVE I4 g_3and 4 C SA1 SA0 N_12
+#$ PRIMITIVE I8 g_dc 4 N_7 N_13 DZ BZ
+#$ PRIMITIVE I9 g_dc 4 N_4 N_12 DZ AZ
+#$ PRIMITIVE I1 g_inv 2 R N_7
+#$ PRIMITIVE I2 g_inv 2 R N_4
+#$ PRIMITIVE I29 g_mux21 4 A7 B3 S N_20
+#$ PRIMITIVE I30 g_mux21 4 A6 B2 S N_10
+#$ PRIMITIVE I31 g_mux21 4 A5 B1 S N_9
+#$ PRIMITIVE I32 g_mux21 4 A4 B0 S N_8
+#$ PRIMITIVE I18 g_xor 3 AZ BZ RZ
+#$ PRIMITIVE I33 g_xor 3 N_20 V O7
+#$ PRIMITIVE I34 g_xor 3 N_10 V O6
+#$ PRIMITIVE I35 g_xor 3 N_9 V O5
+#$ PRIMITIVE I36 g_xor 3 N_8 V O4
+#$ INSTANCE I10 sr4univ 14 C R D0 D1 D2 D3 SB0 SB1 GND GND B0 B1 B2 B3
+#$ INSTANCE I11 sr8univ 22 C R N_2 N_3 N_5 N_6 N_16 N_17 N_18 N_19 SR \
+#   SR GND GND R0 R1 R2 R3 R4 R5 R6 R7
+#$ INSTANCE I12 sr8univ 22 C R GND GND GND GND D0 D1 D2 D3 SA0 SA1 GND \
+#   GND A0 A1 A2 A3 A4 A5 A6 A7
+#$ INSTANCE I37 valdantis 11 C R AZ B3 S SA0 SA1 SB0 SB1 SR V
+.model operacinis
+
+.outputs  GND
+.names GND
+0
+.end

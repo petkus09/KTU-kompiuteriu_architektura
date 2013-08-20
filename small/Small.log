@@ -1,0 +1,438 @@
+[2013-05-28 21.44.22] [SEVERE]: Logging started
+[2013-05-28 21.44.22] [INFO]: Interface created
+[2013-05-28 21.44.22] [FINE]: Creating frame "Untitled1"
+[2013-05-28 21.44.22] [FINE]: Frame "Untitled1" created
+[2013-05-28 21.45.30] [INFO]: Open dialog showed
+[2013-05-28 21.45.32] [FINE]: Frame "Jaðèik.sml" created
+[2013-05-28 21.45.32] [INFO]: File Jaðèik.sml succesfully opened
+[2013-05-28 21.45.34] [FINE]: Closing frame Untitled1
+[2013-05-28 21.45.34] [FINE]: Frame Untitled1 is closed
+[2013-05-28 21.49.13] [INFO]: Open dialog showed
+[2013-05-28 21.49.16] [FINE]: Frame "deivido antras.sml" created
+[2013-05-28 21.49.16] [INFO]: File deivido antras.sml succesfully opened
+[2013-05-28 21.49.17] [FINE]: Closing frame Jaðèik.sml
+[2013-05-28 21.49.17] [FINE]: Frame Jaðèik.sml is closed
+[2013-05-28 21.53.50] [INFO]: Open dialog showed
+[2013-05-28 21.53.53] [INFO]: Open canceled by user
+[2013-05-28 21.58.47] [INFO]: Open dialog showed
+[2013-05-28 21.58.50] [FINE]: Frame "Laboratorinis Nr.1_2.sml" created
+[2013-05-28 21.58.50] [INFO]: File Laboratorinis Nr.1_2.sml succesfully opened
+[2013-05-28 21.58.52] [FINE]: Closing frame deivido antras.sml
+[2013-05-28 21.58.52] [FINE]: Frame deivido antras.sml is closed
+[2013-05-28 22.13.10] [INFO]: Open dialog showed
+[2013-05-28 22.13.14] [INFO]: Open canceled by user
+[2013-05-28 23.03.31] [FINE]: Closing frame Laboratorinis Nr.1_2.sml
+[2013-05-28 23.03.31] [FINE]: Frame Laboratorinis Nr.1_2.sml is closed
+[2013-05-28 23.03.32] [INFO]: Open dialog showed
+[2013-05-28 23.03.39] [FINE]: Frame "213 2.sml" created
+[2013-05-28 23.03.39] [INFO]: File 213 2.sml succesfully opened
+[2013-05-28 23.03.47] [FINE]: Lokking for selected frame
+[2013-05-28 23.03.47] [FINE]: Selected frame found
+[2013-05-28 23.03.47] [FINER]: Retrieving frame 213 2.sml
+[2013-05-28 23.03.47] [INFO]: Save dialog showed
+[2013-05-28 23.04.03] [INFO]: Frame content saved to file
+[2013-05-28 23.04.08] [FINE]: Closing frame 213 2.sml
+[2013-05-28 23.04.08] [FINE]: Frame 213 2.sml is closed
+[2013-05-28 23.04.09] [INFO]: Open dialog showed
+[2013-05-28 23.04.10] [INFO]: Open canceled by user
+[2013-05-28 23.04.14] [INFO]: Open dialog showed
+[2013-05-28 23.04.16] [FINE]: Frame "30-2.sml" created
+[2013-05-28 23.04.16] [INFO]: File 30-2.sml succesfully opened
+[2013-05-28 23.05.44] [INFO]: Open dialog showed
+[2013-05-28 23.05.47] [FINE]: Frame "deivido antras.sml" created
+[2013-05-28 23.05.47] [INFO]: File deivido antras.sml succesfully opened
+[2013-05-28 23.05.56] [FINE]: Closing frame deivido antras.sml
+[2013-05-28 23.05.56] [FINE]: Frame deivido antras.sml is closed
+[2013-05-28 23.20.22] [FINE]:  Save action requested
+[2013-05-28 23.20.22] [FINE]: Lokking for selected frame
+[2013-05-28 23.20.22] [FINE]: Selected frame found
+[2013-05-28 23.20.22] [FINER]: Retrieving frame 30-2.sml
+[2013-05-28 23.20.22] [INFO]: Saving file [30-2.sml]
+[2013-05-28 23.20.22] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-28 23.20.25] [INFO]: Open dialog showed
+[2013-05-28 23.20.33] [FINE]: Frame "deivido antras.sml" created
+[2013-05-28 23.20.33] [INFO]: File deivido antras.sml succesfully opened
+[2013-05-28 23.20.42] [FINE]: Closing frame deivido antras.sml
+[2013-05-28 23.20.42] [FINE]: Frame deivido antras.sml is closed
+[2013-05-28 23.21.08] [FINE]:  Save action requested
+[2013-05-28 23.21.08] [FINE]: Lokking for selected frame
+[2013-05-28 23.21.08] [FINE]: Selected frame found
+[2013-05-28 23.21.08] [FINER]: Retrieving frame 30-2.sml
+[2013-05-28 23.21.08] [INFO]: Saving file [30-2.sml]
+[2013-05-28 23.21.08] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.04.24] [FINE]:  Save action requested
+[2013-05-29 00.04.24] [FINE]: Lokking for selected frame
+[2013-05-29 00.04.24] [FINE]: Selected frame found
+[2013-05-29 00.04.24] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.04.24] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.04.24] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.04.26] [FINE]: Lokking for selected frame
+[2013-05-29 00.04.26] [FINE]: Selected frame found
+[2013-05-29 00.04.26] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.04.26] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.04.26] [FINE]: Debugger was succesfully initialized. Source code contains 92 lines
+[2013-05-29 00.04.26] [INFO]: Debugging has been started
+[2013-05-29 00.04.26] [FINER]: Looking for unit declaration
+[2013-05-29 00.04.26] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.04.26] [FINER]: Looking for variable declaration
+[2013-05-29 00.04.26] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.04.26] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.04.26] [FINER]: Starting microoperation declaration
+[2013-05-29 00.04.26] [FINER]: Declaring traced variables
+[2013-05-29 00.04.26] [FINER]: Starting condition declaration
+[2013-05-29 00.04.26] [FINER]: Looking for addressing mode
+[2013-05-29 00.04.26] [FINER]: Defining addressing format
+[2013-05-29 00.04.26] [FINER]: Declaring Y fields
+[2013-05-29 00.04.26] [FINER]: Declaring X fields
+[2013-05-29 00.04.26] [FINER]: Defining microoperation memory
+[2013-05-29 00.05.03] [INFO]: Debugging finished normally
+[2013-05-29 00.05.26] [INFO]: Open dialog showed
+[2013-05-29 00.05.28] [INFO]: Open canceled by user
+[2013-05-29 00.05.29] [FINE]:  Save action requested
+[2013-05-29 00.05.29] [FINE]: Lokking for selected frame
+[2013-05-29 00.05.29] [FINE]: Selected frame found
+[2013-05-29 00.05.29] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.05.29] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.05.29] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.05.31] [INFO]: Open dialog showed
+[2013-05-29 00.05.33] [INFO]: Open canceled by user
+[2013-05-29 00.05.34] [FINE]: Closing frame 30-2.sml
+[2013-05-29 00.05.34] [FINE]: Frame 30-2.sml is closed
+[2013-05-29 00.05.35] [FINE]: Creating frame "Untitled2"
+[2013-05-29 00.05.35] [FINE]: Frame "Untitled2" created
+[2013-05-29 00.05.36] [FINE]: Closing frame Untitled2
+[2013-05-29 00.05.36] [FINE]: Frame Untitled2 is closed
+[2013-05-29 00.05.37] [INFO]: Open dialog showed
+[2013-05-29 00.05.41] [FINE]: Frame "Laboratorinis Nr.1_2.sml" created
+[2013-05-29 00.05.41] [INFO]: File Laboratorinis Nr.1_2.sml succesfully opened
+[2013-05-29 00.05.44] [FINE]: Lokking for selected frame
+[2013-05-29 00.05.44] [FINE]: Selected frame found
+[2013-05-29 00.05.44] [FINER]: Retrieving frame Laboratorinis Nr.1_2.sml
+[2013-05-29 00.05.44] [FINE]: Retrieving frame Laboratorinis Nr.1_2.sml text
+[2013-05-29 00.05.44] [FINE]: Debugger was succesfully initialized. Source code contains 48 lines
+[2013-05-29 00.05.44] [INFO]: Debugging has been started
+[2013-05-29 00.05.44] [FINER]: Looking for unit declaration
+[2013-05-29 00.05.44] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.05.44] [FINER]: Looking for variable declaration
+[2013-05-29 00.05.44] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.05.44] [FINER]: Begin found, this is simple simulation
+[2013-05-29 00.05.55] [FINER]: Simple simulation ended succesfully
+[2013-05-29 00.05.55] [INFO]: Debugging finished normally
+[2013-05-29 00.06.10] [FINE]: Lokking for selected frame
+[2013-05-29 00.06.10] [FINE]: Selected frame found
+[2013-05-29 00.06.10] [FINER]: Retrieving frame Laboratorinis Nr.1_2.sml
+[2013-05-29 00.06.10] [FINE]: Retrieving frame Laboratorinis Nr.1_2.sml text
+[2013-05-29 00.06.10] [FINE]: Debugger was succesfully initialized. Source code contains 48 lines
+[2013-05-29 00.06.10] [INFO]: Debugging has been started
+[2013-05-29 00.06.10] [FINER]: Looking for unit declaration
+[2013-05-29 00.06.10] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.06.10] [FINER]: Looking for variable declaration
+[2013-05-29 00.06.10] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.06.10] [FINER]: Begin found, this is simple simulation
+[2013-05-29 00.06.29] [FINER]: Simple simulation ended succesfully
+[2013-05-29 00.06.29] [INFO]: Debugging finished normally
+[2013-05-29 00.06.51] [FINE]: Lokking for selected frame
+[2013-05-29 00.06.51] [FINE]: Selected frame found
+[2013-05-29 00.06.51] [FINER]: Retrieving frame Laboratorinis Nr.1_2.sml
+[2013-05-29 00.06.51] [FINE]: Retrieving frame Laboratorinis Nr.1_2.sml text
+[2013-05-29 00.06.51] [FINE]: Debugger was succesfully initialized. Source code contains 48 lines
+[2013-05-29 00.06.51] [INFO]: Debugging has been started
+[2013-05-29 00.06.51] [FINER]: Looking for unit declaration
+[2013-05-29 00.06.51] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.06.51] [FINER]: Looking for variable declaration
+[2013-05-29 00.06.51] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.06.51] [FINER]: Begin found, this is simple simulation
+[2013-05-29 00.06.53] [FINE]: 
+	 Interpretator.Debuger.Exception(Debuger.java:935)
+	 Interpretator.Debuger.analyzeCalculations(Debuger.java:351)
+	 Interpretator.Debuger.analyzeSimpleLine(Debuger.java:328)
+	 Interpretator.Debuger.furtherActions(Debuger.java:135)
+	 Interpretator.Debuger.startDebug(Debuger.java:119)
+	 small.TopFrame.aRun(TopFrame.java:392)
+	 small.TopFrame.access$1200(TopFrame.java:28)
+	 small.TopFrame$2.actionPerformed(TopFrame.java:481)
+	 javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	 javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	 javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	 javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	 javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	 java.awt.Component.processMouseEvent(Component.java:6505)
+	 javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	 java.awt.Component.processEvent(Component.java:6270)
+	 java.awt.Container.processEvent(Container.java:2229)
+	 java.awt.Component.dispatchEventImpl(Component.java:4861)
+	 java.awt.Container.dispatchEventImpl(Container.java:2287)
+	 java.awt.Component.dispatchEvent(Component.java:4687)
+	 java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	 java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	 java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	 java.awt.Container.dispatchEventImpl(Container.java:2273)
+	 java.awt.Window.dispatchEventImpl(Window.java:2719)
+	 java.awt.Component.dispatchEvent(Component.java:4687)
+	 java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	 java.awt.EventQueue.access$200(EventQueue.java:103)
+	 java.awt.EventQueue$3.run(EventQueue.java:682)
+	 java.awt.EventQueue$3.run(EventQueue.java:680)
+	 java.security.AccessController.doPrivileged(Native Method)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	 java.awt.EventQueue$4.run(EventQueue.java:696)
+	 java.awt.EventQueue$4.run(EventQueue.java:694)
+	 java.security.AccessController.doPrivileged(Native Method)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	 java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+	 java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	 java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	 java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	 java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	 java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	 java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013-05-29 00.06.53] [WARNING]: Canceled by user at line 7
+
+[2013-05-29 00.06.53] [INFO]: Open dialog showed
+[2013-05-29 00.06.57] [FINE]: Frame "30-2.sml" created
+[2013-05-29 00.06.57] [INFO]: File 30-2.sml succesfully opened
+[2013-05-29 00.07.00] [FINE]: Closing frame Laboratorinis Nr.1_2.sml
+[2013-05-29 00.07.00] [FINE]: Frame Laboratorinis Nr.1_2.sml is closed
+[2013-05-29 00.07.05] [FINE]: Lokking for selected frame
+[2013-05-29 00.07.05] [FINE]: Selected frame found
+[2013-05-29 00.07.05] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.07.05] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.07.05] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.07.05] [INFO]: Debugging has been started
+[2013-05-29 00.07.05] [FINER]: Looking for unit declaration
+[2013-05-29 00.07.05] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.07.05] [FINER]: Looking for variable declaration
+[2013-05-29 00.07.05] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.07.05] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.07.05] [FINER]: Starting microoperation declaration
+[2013-05-29 00.07.05] [FINER]: Declaring traced variables
+[2013-05-29 00.07.05] [FINER]: Starting condition declaration
+[2013-05-29 00.07.05] [FINER]: Looking for addressing mode
+[2013-05-29 00.07.05] [FINER]: Defining addressing format
+[2013-05-29 00.07.05] [FINER]: Declaring Y fields
+[2013-05-29 00.07.05] [FINER]: Declaring X fields
+[2013-05-29 00.07.05] [FINER]: Defining microoperation memory
+[2013-05-29 00.07.17] [INFO]: Debugging finished normally
+[2013-05-29 00.12.08] [FINE]: Lokking for selected frame
+[2013-05-29 00.12.08] [FINE]: Selected frame found
+[2013-05-29 00.12.08] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.12.08] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.12.08] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.12.08] [INFO]: Debugging has been started
+[2013-05-29 00.12.08] [FINER]: Looking for unit declaration
+[2013-05-29 00.12.08] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.12.08] [FINER]: Looking for variable declaration
+[2013-05-29 00.12.08] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.12.08] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.12.08] [FINER]: Starting microoperation declaration
+[2013-05-29 00.12.08] [FINER]: Declaring traced variables
+[2013-05-29 00.12.08] [FINER]: Starting condition declaration
+[2013-05-29 00.12.08] [FINER]: Looking for addressing mode
+[2013-05-29 00.12.08] [FINER]: Defining addressing format
+[2013-05-29 00.12.08] [FINER]: Declaring Y fields
+[2013-05-29 00.12.08] [FINER]: Declaring X fields
+[2013-05-29 00.12.08] [FINER]: Defining microoperation memory
+[2013-05-29 00.12.21] [INFO]: Debugging finished normally
+[2013-05-29 00.16.51] [INFO]: Open dialog showed
+[2013-05-29 00.16.59] [FINE]: Frame "deivido antras.sml" created
+[2013-05-29 00.16.59] [INFO]: File deivido antras.sml succesfully opened
+[2013-05-29 00.17.20] [FINE]: Closing frame deivido antras.sml
+[2013-05-29 00.17.20] [FINE]: Frame deivido antras.sml is closed
+[2013-05-29 00.17.29] [INFO]: Open dialog showed
+[2013-05-29 00.17.35] [FINE]: Frame "deivido antras.sml" created
+[2013-05-29 00.17.35] [INFO]: File deivido antras.sml succesfully opened
+[2013-05-29 00.17.39] [FINE]: Closing frame deivido antras.sml
+[2013-05-29 00.17.39] [FINE]: Frame deivido antras.sml is closed
+[2013-05-29 00.17.58] [FINE]: Starting Undo action
+[2013-05-29 00.17.58] [FINE]: Lokking for selected frame
+[2013-05-29 00.17.58] [FINE]: Selected frame found
+[2013-05-29 00.17.58] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.17.58] [FINE]: Undo action finished succesfully
+[2013-05-29 00.18.06] [FINE]:  Save action requested
+[2013-05-29 00.18.06] [FINE]: Lokking for selected frame
+[2013-05-29 00.18.06] [FINE]: Selected frame found
+[2013-05-29 00.18.06] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.18.06] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.18.06] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.18.07] [FINE]: Lokking for selected frame
+[2013-05-29 00.18.07] [FINE]: Selected frame found
+[2013-05-29 00.18.07] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.18.07] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.18.07] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.18.07] [INFO]: Debugging has been started
+[2013-05-29 00.18.07] [FINER]: Looking for unit declaration
+[2013-05-29 00.18.07] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.18.07] [FINER]: Looking for variable declaration
+[2013-05-29 00.18.07] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.18.07] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.18.07] [FINER]: Starting microoperation declaration
+[2013-05-29 00.18.07] [FINER]: Declaring traced variables
+[2013-05-29 00.18.07] [FINER]: Starting condition declaration
+[2013-05-29 00.18.07] [FINER]: Looking for addressing mode
+[2013-05-29 00.18.07] [FINER]: Defining addressing format
+[2013-05-29 00.18.07] [FINER]: Declaring Y fields
+[2013-05-29 00.18.07] [FINER]: Declaring X fields
+[2013-05-29 00.18.07] [FINER]: Defining microoperation memory
+[2013-05-29 00.18.17] [INFO]: Debugging finished normally
+[2013-05-29 00.20.52] [FINE]: Starting Paste action
+[2013-05-29 00.20.52] [FINE]: Lokking for selected frame
+[2013-05-29 00.20.52] [FINE]: Selected frame found
+[2013-05-29 00.20.52] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.20.52] [FINE]: Paste action finished succesfully
+[2013-05-29 00.20.55] [FINE]: Starting Undo action
+[2013-05-29 00.20.55] [FINE]: Lokking for selected frame
+[2013-05-29 00.20.55] [FINE]: Selected frame found
+[2013-05-29 00.20.55] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.20.55] [FINE]: Undo action finished succesfully
+[2013-05-29 00.21.03] [FINE]:  Save action requested
+[2013-05-29 00.21.03] [FINE]: Lokking for selected frame
+[2013-05-29 00.21.03] [FINE]: Selected frame found
+[2013-05-29 00.21.03] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.21.03] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.21.03] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.21.04] [FINE]: Lokking for selected frame
+[2013-05-29 00.21.04] [FINE]: Selected frame found
+[2013-05-29 00.21.04] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.21.04] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.21.04] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.21.04] [INFO]: Debugging has been started
+[2013-05-29 00.21.04] [FINER]: Looking for unit declaration
+[2013-05-29 00.21.04] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.21.04] [FINER]: Looking for variable declaration
+[2013-05-29 00.21.04] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.21.04] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.21.04] [FINER]: Starting microoperation declaration
+[2013-05-29 00.21.04] [FINER]: Declaring traced variables
+[2013-05-29 00.21.04] [FINER]: Starting condition declaration
+[2013-05-29 00.21.04] [FINER]: Looking for addressing mode
+[2013-05-29 00.21.04] [FINER]: Defining addressing format
+[2013-05-29 00.21.04] [FINER]: Declaring Y fields
+[2013-05-29 00.21.04] [FINER]: Declaring X fields
+[2013-05-29 00.21.04] [FINER]: Defining microoperation memory
+[2013-05-29 00.21.12] [INFO]: Debugging finished normally
+[2013-05-29 00.22.25] [FINE]: Lokking for selected frame
+[2013-05-29 00.22.25] [FINE]: Selected frame found
+[2013-05-29 00.22.25] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.22.25] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.22.25] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.22.25] [INFO]: Debugging has been started
+[2013-05-29 00.22.25] [FINER]: Looking for unit declaration
+[2013-05-29 00.22.25] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.22.25] [FINER]: Looking for variable declaration
+[2013-05-29 00.22.25] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.22.25] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.22.25] [FINER]: Starting microoperation declaration
+[2013-05-29 00.22.25] [FINER]: Declaring traced variables
+[2013-05-29 00.22.25] [FINER]: Starting condition declaration
+[2013-05-29 00.22.25] [FINER]: Looking for addressing mode
+[2013-05-29 00.22.25] [FINER]: Defining addressing format
+[2013-05-29 00.22.25] [FINER]: Declaring Y fields
+[2013-05-29 00.22.25] [FINER]: Declaring X fields
+[2013-05-29 00.22.25] [FINER]: Defining microoperation memory
+[2013-05-29 00.22.29] [FINE]: 
+	 Interpretator.Debuger.furtherActions(Debuger.java:162)
+	 Interpretator.Debuger.startDebug(Debuger.java:119)
+	 small.TopFrame.aRun(TopFrame.java:392)
+	 small.TopFrame.access$1200(TopFrame.java:28)
+	 small.TopFrame$2.actionPerformed(TopFrame.java:481)
+	 javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	 javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	 javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	 javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	 javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	 java.awt.Component.processMouseEvent(Component.java:6505)
+	 javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	 java.awt.Component.processEvent(Component.java:6270)
+	 java.awt.Container.processEvent(Container.java:2229)
+	 java.awt.Component.dispatchEventImpl(Component.java:4861)
+	 java.awt.Container.dispatchEventImpl(Container.java:2287)
+	 java.awt.Component.dispatchEvent(Component.java:4687)
+	 java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	 java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	 java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	 java.awt.Container.dispatchEventImpl(Container.java:2273)
+	 java.awt.Window.dispatchEventImpl(Window.java:2719)
+	 java.awt.Component.dispatchEvent(Component.java:4687)
+	 java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	 java.awt.EventQueue.access$200(EventQueue.java:103)
+	 java.awt.EventQueue$3.run(EventQueue.java:682)
+	 java.awt.EventQueue$3.run(EventQueue.java:680)
+	 java.security.AccessController.doPrivileged(Native Method)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	 java.awt.EventQueue$4.run(EventQueue.java:696)
+	 java.awt.EventQueue$4.run(EventQueue.java:694)
+	 java.security.AccessController.doPrivileged(Native Method)
+	 java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	 java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+	 java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	 java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	 java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	 java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	 java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	 java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+[2013-05-29 00.22.29] [WARNING]: Canceled by user at line 92
+
+[2013-05-29 00.22.30] [FINE]:  Save action requested
+[2013-05-29 00.22.30] [FINE]: Lokking for selected frame
+[2013-05-29 00.22.30] [FINE]: Selected frame found
+[2013-05-29 00.22.30] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.22.30] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.22.30] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.22.32] [FINE]: Lokking for selected frame
+[2013-05-29 00.22.32] [FINE]: Selected frame found
+[2013-05-29 00.22.32] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.22.32] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.22.32] [FINE]: Debugger was succesfully initialized. Source code contains 93 lines
+[2013-05-29 00.22.32] [INFO]: Debugging has been started
+[2013-05-29 00.22.32] [FINER]: Looking for unit declaration
+[2013-05-29 00.22.32] [FINER]: Unit declaration completed successfully
+[2013-05-29 00.22.32] [FINER]: Looking for variable declaration
+[2013-05-29 00.22.32] [FINER]: Variable declaration completed successfully
+[2013-05-29 00.22.32] [FINER]: MicroOperations found, this simulation is in microoperation level
+[2013-05-29 00.22.32] [FINER]: Starting microoperation declaration
+[2013-05-29 00.22.32] [FINER]: Declaring traced variables
+[2013-05-29 00.22.32] [FINER]: Starting condition declaration
+[2013-05-29 00.22.32] [FINER]: Looking for addressing mode
+[2013-05-29 00.22.32] [FINER]: Defining addressing format
+[2013-05-29 00.22.32] [FINER]: Declaring Y fields
+[2013-05-29 00.22.32] [FINER]: Declaring X fields
+[2013-05-29 00.22.32] [FINER]: Defining microoperation memory
+[2013-05-29 00.22.44] [INFO]: Debugging finished normally
+[2013-05-29 00.23.12] [FINE]:  Save action requested
+[2013-05-29 00.23.12] [FINE]: Lokking for selected frame
+[2013-05-29 00.23.12] [FINE]: Selected frame found
+[2013-05-29 00.23.12] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.23.12] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.23.12] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.23.19] [FINE]:  Save action requested
+[2013-05-29 00.23.19] [FINE]: Lokking for selected frame
+[2013-05-29 00.23.19] [FINE]: Selected frame found
+[2013-05-29 00.23.19] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.23.19] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.23.19] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.23.19] [FINE]:  Save action requested
+[2013-05-29 00.23.19] [FINE]: Lokking for selected frame
+[2013-05-29 00.23.19] [FINE]: Selected frame found
+[2013-05-29 00.23.19] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.23.19] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.23.19] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.23.19] [FINE]:  Save action requested
+[2013-05-29 00.23.19] [FINE]: Lokking for selected frame
+[2013-05-29 00.23.19] [FINE]: Selected frame found
+[2013-05-29 00.23.19] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.23.19] [INFO]: Saving file [30-2.sml]
+[2013-05-29 00.23.19] [FINE]: Retrieving frame 30-2.sml text
+[2013-05-29 00.23.21] [FINE]: Closing frame 30-2.sml
+[2013-05-29 00.23.21] [FINE]: Frame 30-2.sml is closed
+[2013-05-29 00.23.23] [INFO]: Open dialog showed
+[2013-05-29 00.23.29] [FINE]: Frame "30-2.sml" created
+[2013-05-29 00.23.29] [INFO]: File 30-2.sml succesfully opened
+[2013-05-29 00.23.36] [FINER]: ========Closing all frames===========
+[2013-05-29 00.23.36] [FINER]: Retrieving frame 30-2.sml
+[2013-05-29 00.23.36] [FINE]: Uuuu somebody wants to destroy frame
+[2013-05-29 00.23.36] [FINE]: Closing frame 30-2.sml
+[2013-05-29 00.23.36] [FINE]: Frame 30-2.sml is closed
+[2013-05-29 00.23.36] [FINE]: Frame was successfully destroyed
+[2013-05-29 00.23.36] [FINER]: =====All frames should be closed======

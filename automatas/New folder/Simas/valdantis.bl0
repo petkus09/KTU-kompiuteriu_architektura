@@ -1,0 +1,378 @@
+#$ TOOL ispLEVER Classic 1.5.00.05.39.l1
+#$ DATE Wed May 09 23:22:18 2012
+#$ TITLE valdantis.bls 
+#$ MODULE valdantis
+#$ PINS 15 SSR'o'  V'o'  S'o'  SB0'o'  SA1'o'  SA0'o'  SB1'o'  R C SL D3'o'  D2'o'  D0'o'  D1'o'  SR
+#$ NODES 73 N_96'o'  N_98'o'  N_99'o'  N_100'o'  N_101'o'  N_102'o'  N_103'o'  N_104'o'  N_105'o'  N_106'o'  N_107'o'  \
+#  N_108'o'  N_109'o'  N_110'o'  N_111'o'  N_83'o'  N_84'o'  N_85'o'  N_86'o'  N_87'o'  N_88'o'  N_90'o'  N_91'o'  N_92'o'  N_93'o'  \
+#  N_94'o'  N_95'o'  N_75'o'  N_76'o'  N_77'o'  N_78'o'  N_79'o'  N_80'o'  N_81'o'  N_82'o'  N_1'o'  N_2'o'  N_3'o'  N_4'o'  N_5'o'  N_6'o'  N_7'o'  \
+#  N_8'o'  N_9'o'  N_10'o'  N_11'o'  N_12'o'  N_13'o'  Q0'o'  Q1'o'  Q2'o'  Q3'o'  N_16'o'  N_17'o'  N_18'o'  N_20'o'  N_21'o'  N_23'o'  N_24'o'  \
+#  N_28'o'  N_29'o'  N_30'o'  N_31'o'  N_32'o'  N_33'o'  N_38'o'  N_40'o'  N_41'o'  N_42'o'  N_45'o'  N_47'o'  N_48'o'  N_49'o' 
+.model valdantis
+.inputs Q1.BLIF Q0.BLIF Q3.BLIF Q2.BLIF N_80.BLIF N_93.BLIF N_85.BLIF N_7.BLIF \
+N_6.BLIF N_9.BLIF N_10.BLIF N_92.BLIF N_91.BLIF N_76.BLIF N_75.BLIF N_82.BLIF \
+N_81.BLIF N_87.BLIF N_88.BLIF N_84.BLIF N_83.BLIF N_33.BLIF N_32.BLIF \
+N_31.BLIF N_30.BLIF N_29.BLIF N_28.BLIF N_102.BLIF N_101.BLIF N_24.BLIF \
+N_23.BLIF N_90.BLIF N_42.BLIF N_109.BLIF N_8.BLIF N_13.BLIF N_77.BLIF \
+N_86.BLIF N_41.BLIF SR.BLIF N_40.BLIF N_107.BLIF N_108.BLIF SL.BLIF N_38.BLIF \
+N_1.BLIF N_2.BLIF N_3.BLIF V.BLIF N_94.BLIF N_95.BLIF SA0.BLIF N_78.BLIF \
+N_79.BLIF N_104.BLIF N_98.BLIF N_96.BLIF N_4.BLIF N_5.BLIF N_11.BLIF N_12.BLIF \
+N_48.BLIF N_45.BLIF N_21.BLIF N_47.BLIF N_111.BLIF N_110.BLIF N_99.BLIF \
+N_49.BLIF N_106.BLIF N_100.BLIF N_103.BLIF N_105.BLIF N_20.BLIF C.BLIF D3.BLIF \
+N_18.BLIF D2.BLIF N_17.BLIF D1.BLIF N_16.BLIF D0.BLIF R.BLIF
+.outputs N_106 N_1 N_4 N_7 N_76 N_79 N_33 N_2 N_94 N_87 N_30 N_29 N_100 N_98 \
+N_10 N_75 N_105 N_101 N_23 N_8 N_13 N_93 N_77 N_80 SB0 N_85 N_42 N_41 N_40 \
+N_107 N_38 N_95 N_48 N_111 N_5 N_11 N_91 N_78 N_81 N_83 N_88 N_45 N_31 N_21 \
+N_110 N_99 N_102 N_24 N_104 N_6 N_12 N_92 V N_82 N_84 N_96 N_47 N_49 N_103 \
+N_28 D3 SSR SA1 N_108 N_3 S SB1 SA0 D2 D1 D0 N_109 Q3.REG Q3.AR Q3.C Q2.REG \
+Q2.AR Q2.C Q1.REG Q1.AR Q1.C Q0.REG Q0.AR Q0.C N_20 N_18 N_17 N_16 N_9 N_90 \
+N_86 N_32
+
+.subckt g_2and A.BLIF=Q1.BLIF B.BLIF=Q0.BLIF Y=N_106
+
+.subckt g_2and A.BLIF=Q3.BLIF B.BLIF=Q2.BLIF Y=N_1
+
+.subckt g_2and A.BLIF=Q3.BLIF B.BLIF=Q2.BLIF Y=N_4
+
+.subckt g_2and A.BLIF=Q1.BLIF B.BLIF=Q0.BLIF Y=N_7
+
+.subckt g_2and A.BLIF=Q1.BLIF B.BLIF=Q0.BLIF Y=N_76
+
+.subckt g_2and A.BLIF=Q3.BLIF B.BLIF=N_80.BLIF Y=N_79
+
+.subckt g_2and A.BLIF=Q1.BLIF B.BLIF=Q0.BLIF Y=N_33
+
+.subckt g_2and1 AN.BLIF=Q2.BLIF B.BLIF=Q3.BLIF Y=N_2
+
+.subckt g_2and1 AN.BLIF=Q1.BLIF B.BLIF=N_93.BLIF Y=N_94
+
+.subckt g_2and1 AN.BLIF=Q3.BLIF B.BLIF=N_85.BLIF Y=N_87
+
+.subckt g_2and1 AN.BLIF=Q1.BLIF B.BLIF=Q0.BLIF Y=N_30
+
+.subckt g_2and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF Y=N_29
+
+.subckt g_2and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF Y=N_100
+
+.subckt g_2and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF Y=N_98
+
+.subckt g_2and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF Y=N_10
+
+.subckt g_2and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF Y=N_75
+
+.subckt g_2and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF Y=N_105
+
+.subckt g_2and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF Y=N_101
+
+.subckt g_2and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF Y=N_23
+
+.subckt g_2or A.BLIF=N_7.BLIF B.BLIF=N_6.BLIF Y=N_8
+
+.subckt g_2or A.BLIF=N_9.BLIF B.BLIF=N_10.BLIF Y=N_13
+
+.subckt g_2or A.BLIF=N_92.BLIF B.BLIF=N_91.BLIF Y=N_93
+
+.subckt g_2or A.BLIF=N_76.BLIF B.BLIF=N_75.BLIF Y=N_77
+
+.subckt g_2or A.BLIF=N_82.BLIF B.BLIF=N_81.BLIF Y=N_80
+
+.subckt g_2or A.BLIF=N_87.BLIF B.BLIF=N_88.BLIF Y=SB0
+
+.subckt g_2or A.BLIF=N_84.BLIF B.BLIF=N_83.BLIF Y=N_85
+
+.subckt g_2or A.BLIF=N_33.BLIF B.BLIF=N_32.BLIF Y=N_42
+
+.subckt g_2or A.BLIF=N_31.BLIF B.BLIF=N_30.BLIF Y=N_41
+
+.subckt g_2or A.BLIF=N_29.BLIF B.BLIF=N_28.BLIF Y=N_40
+
+.subckt g_2or A.BLIF=N_102.BLIF B.BLIF=N_101.BLIF Y=N_107
+
+.subckt g_2or A.BLIF=N_24.BLIF B.BLIF=N_23.BLIF Y=N_38
+
+.subckt g_3and A.BLIF=Q3.BLIF B.BLIF=Q1.BLIF C.BLIF=N_90.BLIF Y=N_95
+
+.subckt g_3and A.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_42.BLIF Y=N_48
+
+.subckt g_3and A.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_109.BLIF Y=N_111
+
+.subckt g_3and1 AN.BLIF=Q2.BLIF B.BLIF=Q3.BLIF C.BLIF=N_8.BLIF Y=N_5
+
+.subckt g_3and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_13.BLIF Y=N_11
+
+.subckt g_3and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=Q0.BLIF Y=N_91
+
+.subckt g_3and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_77.BLIF Y=N_78
+
+.subckt g_3and1 AN.BLIF=Q1.BLIF B.BLIF=Q0.BLIF C.BLIF=Q2.BLIF Y=N_81
+
+.subckt g_3and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF C.BLIF=Q2.BLIF Y=N_83
+
+.subckt g_3and1 AN.BLIF=Q1.BLIF B.BLIF=Q3.BLIF C.BLIF=N_86.BLIF Y=N_88
+
+.subckt g_3and1 AN.BLIF=Q2.BLIF B.BLIF=Q3.BLIF C.BLIF=N_41.BLIF Y=N_45
+
+.subckt g_3and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF C.BLIF=SR.BLIF Y=N_31
+
+.subckt g_3and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_40.BLIF Y=N_21
+
+.subckt g_3and1 AN.BLIF=Q2.BLIF B.BLIF=Q3.BLIF C.BLIF=N_107.BLIF Y=N_110
+
+.subckt g_3and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=N_108.BLIF Y=N_99
+
+.subckt g_3and1 AN.BLIF=Q0.BLIF B.BLIF=Q1.BLIF C.BLIF=SR.BLIF Y=N_102
+
+.subckt g_3and1 AN.BLIF=Q1.BLIF B.BLIF=Q0.BLIF C.BLIF=SL.BLIF Y=N_24
+
+.subckt g_3and1 AN.BLIF=SR.BLIF B.BLIF=Q0.BLIF C.BLIF=Q1.BLIF Y=N_104
+
+.subckt g_3and2 AN.BLIF=SR.BLIF BN.BLIF=Q0.BLIF C.BLIF=Q1.BLIF Y=N_6
+
+.subckt g_3and2 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF C.BLIF=Q1.BLIF Y=N_12
+
+.subckt g_3and2 AN.BLIF=Q0.BLIF BN.BLIF=Q2.BLIF C.BLIF=Q3.BLIF Y=N_92
+
+.subckt g_3and2 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF C.BLIF=Q1.BLIF Y=V
+
+.subckt g_3and2 AN.BLIF=Q0.BLIF BN.BLIF=Q2.BLIF C.BLIF=Q1.BLIF Y=N_82
+
+.subckt g_3and2 AN.BLIF=Q2.BLIF BN.BLIF=Q1.BLIF C.BLIF=Q0.BLIF Y=N_84
+
+.subckt g_3and2 AN.BLIF=Q1.BLIF BN.BLIF=Q0.BLIF C.BLIF=SR.BLIF Y=N_96
+
+.subckt g_3and2 AN.BLIF=Q3.BLIF BN.BLIF=Q1.BLIF C.BLIF=Q0.BLIF Y=N_47
+
+.subckt g_3and2 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF C.BLIF=N_38.BLIF Y=N_49
+
+.subckt g_3and2 AN.BLIF=SR.BLIF BN.BLIF=Q1.BLIF C.BLIF=Q0.BLIF Y=N_103
+
+.subckt g_3and3 AN.BLIF=SR.BLIF BN.BLIF=Q1.BLIF CN.BLIF=Q0.BLIF Y=N_28
+
+.subckt g_3or A.BLIF=N_1.BLIF B.BLIF=N_2.BLIF C.BLIF=N_3.BLIF Y=D3
+
+.subckt g_3or A.BLIF=V.BLIF B.BLIF=N_94.BLIF C.BLIF=N_95.BLIF Y=SSR
+
+.subckt g_3or A.BLIF=SA0.BLIF B.BLIF=N_78.BLIF C.BLIF=N_79.BLIF Y=SA1
+
+.subckt g_3or A.BLIF=N_104.BLIF B.BLIF=N_98.BLIF C.BLIF=N_96.BLIF Y=N_108
+\
+
+.subckt g_4and1 AN.BLIF=Q3.BLIF B.BLIF=Q2.BLIF C.BLIF=Q1.BLIF D.BLIF=Q0.BLIF Y=N_3 \
+
+\
+
+.subckt g_4and2 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF C.BLIF=Q1.BLIF D.BLIF=Q0.BLIF Y=S \
+
+\
+
+.subckt g_4and3 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF CN.BLIF=Q1.BLIF D.BLIF=Q0.BLIF Y=SB1 \
+
+\
+
+.subckt g_4and4 AN.BLIF=Q3.BLIF BN.BLIF=Q2.BLIF CN.BLIF=Q1.BLIF DN.BLIF=Q0.BLIF Y=SA0 \
+
+\
+
+.subckt g_4or A.BLIF=N_4.BLIF B.BLIF=N_5.BLIF C.BLIF=N_11.BLIF D.BLIF=N_12.BLIF Y=D2 \
+
+\
+
+.subckt g_4or A.BLIF=N_48.BLIF B.BLIF=N_45.BLIF C.BLIF=N_21.BLIF D.BLIF=N_47.BLIF \
+ Y=D1
+\
+
+.subckt g_4or A.BLIF=N_111.BLIF B.BLIF=N_110.BLIF C.BLIF=N_99.BLIF D.BLIF=N_49.BLIF \
+ Y=D0
+\
+
+.subckt g_4or A.BLIF=N_106.BLIF B.BLIF=N_100.BLIF C.BLIF=N_103.BLIF D.BLIF=N_105.BLIF \
+ Y=N_109
+\
+
+.subckt g_dc C.BLIF=N_20.BLIF CLK.BLIF=C.BLIF D.BLIF=D3.BLIF Q.REG=Q3.REG Q.AR=Q3.AR \
+ Q.C=Q3.C
+\
+
+.subckt g_dc C.BLIF=N_18.BLIF CLK.BLIF=C.BLIF D.BLIF=D2.BLIF Q.REG=Q2.REG Q.AR=Q2.AR \
+ Q.C=Q2.C
+\
+
+.subckt g_dc C.BLIF=N_17.BLIF CLK.BLIF=C.BLIF D.BLIF=D1.BLIF Q.REG=Q1.REG Q.AR=Q1.AR \
+ Q.C=Q1.C
+\
+
+.subckt g_dc C.BLIF=N_16.BLIF CLK.BLIF=C.BLIF D.BLIF=D0.BLIF Q.REG=Q0.REG Q.AR=Q0.AR \
+ Q.C=Q0.C
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_20
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_18
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_17
+
+.subckt g_inv A.BLIF=R.BLIF YN=N_16
+
+.subckt g_xor A.BLIF=Q0.BLIF B.BLIF=Q1.BLIF Y=N_9
+
+.subckt g_xor A.BLIF=Q0.BLIF B.BLIF=Q2.BLIF Y=N_90
+
+.subckt g_xor A.BLIF=Q0.BLIF B.BLIF=Q2.BLIF Y=N_86
+
+.subckt g_xor A.BLIF=Q0.BLIF B.BLIF=Q1.BLIF Y=N_32
+.end
+.model g_2and
+.inputs A.BLIF B.BLIF
+.outputs Y
+.names A.BLIF B.BLIF Y
+11 1
+0- 0
+-0 0
+.end
+.model g_2and1
+.inputs AN.BLIF B.BLIF
+.outputs Y
+.names AN.BLIF B.BLIF Y
+01 1
+1- 0
+-0 0
+.end
+.model g_2and2
+.inputs AN.BLIF BN.BLIF
+.outputs Y
+.names AN.BLIF BN.BLIF Y
+00 1
+1- 0
+-1 0
+.end
+.model g_2or
+.inputs A.BLIF B.BLIF
+.outputs Y
+.names A.BLIF B.BLIF Y
+1- 1
+-1 1
+00 0
+.end
+.model g_3and
+.inputs A.BLIF B.BLIF C.BLIF
+.outputs Y
+.names C.BLIF B.BLIF A.BLIF Y
+111 1
+-0- 0
+0-- 0
+--0 0
+.end
+.model g_3and1
+.inputs AN.BLIF B.BLIF C.BLIF
+.outputs Y
+.names AN.BLIF C.BLIF B.BLIF Y
+011 1
+-0- 0
+1-- 0
+--0 0
+.end
+.model g_3and2
+.inputs AN.BLIF BN.BLIF C.BLIF
+.outputs Y
+.names BN.BLIF AN.BLIF C.BLIF Y
+001 1
+-1- 0
+1-- 0
+--0 0
+.end
+.model g_3and3
+.inputs AN.BLIF BN.BLIF CN.BLIF
+.outputs Y
+.names AN.BLIF BN.BLIF CN.BLIF Y
+000 1
+-1- 0
+1-- 0
+--1 0
+.end
+.model g_3or
+.inputs A.BLIF B.BLIF C.BLIF
+.outputs Y
+.names C.BLIF B.BLIF A.BLIF Y
+-1- 1
+1-- 1
+--1 1
+000 0
+.end
+.model g_4and1
+.inputs AN.BLIF B.BLIF C.BLIF D.BLIF
+.outputs Y
+.names AN.BLIF D.BLIF C.BLIF B.BLIF Y
+0111 1
+--0- 0
+-0-- 0
+1--- 0
+---0 0
+.end
+.model g_4and2
+.inputs AN.BLIF BN.BLIF C.BLIF D.BLIF
+.outputs Y
+.names BN.BLIF AN.BLIF D.BLIF C.BLIF Y
+0011 1
+--0- 0
+-1-- 0
+1--- 0
+---0 0
+.end
+.model g_4and3
+.inputs AN.BLIF BN.BLIF CN.BLIF D.BLIF
+.outputs Y
+.names CN.BLIF AN.BLIF BN.BLIF D.BLIF Y
+0001 1
+--1- 0
+-1-- 0
+1--- 0
+---0 0
+.end
+.model g_4and4
+.inputs AN.BLIF BN.BLIF CN.BLIF DN.BLIF
+.outputs Y
+.names AN.BLIF BN.BLIF CN.BLIF DN.BLIF Y
+0000 1
+--1- 0
+-1-- 0
+1--- 0
+---1 0
+.end
+.model g_4or
+.inputs A.BLIF B.BLIF C.BLIF D.BLIF
+.outputs Y
+.names D.BLIF C.BLIF B.BLIF A.BLIF Y
+--1- 1
+-1-- 1
+1--- 1
+---1 1
+0000 0
+.end
+.model g_dc
+.inputs C.BLIF CLK.BLIF D.BLIF
+.outputs Q.REG Q.C Q.AR
+.names D.BLIF Q.REG
+1 1
+0 0
+.names CLK.BLIF Q.C
+1 1
+0 0
+.names C.BLIF Q.AR
+1 1
+0 0
+.end
+.model g_inv
+.inputs A.BLIF
+.outputs YN
+.names A.BLIF YN
+0 1
+1 0
+.end
+.model g_xor
+.inputs A.BLIF B.BLIF
+.outputs Y
+.names A.BLIF B.BLIF Y
+10 1
+01 1
+00 0
+11 0
+.end

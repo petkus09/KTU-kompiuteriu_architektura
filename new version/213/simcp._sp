@@ -1,0 +1,2 @@
+simcp.post5 -ini simcpls.ini -all simcp.post5
+-cfg machgen.fdk testas.lts -map operacinis.lsi
